@@ -1,0 +1,14 @@
+{
+    "hideip": false,
+    "output": "/var/www/map/data.geo.json",
+    "logfiles": {
+        "ssh": {
+            "path": "/var/log/auth.log",
+            "color": "#ff0000"
+        },
+        "http": {
+            "path": "/var/log/nginx/access.log",
+            "color": "#0000ff"
+        }
+    }
+}
